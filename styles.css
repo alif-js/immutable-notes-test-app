@@ -33,13 +33,14 @@ p{
     border: 1px solid rgb(50, 47, 43);
     border-radius: 10px;
 }
-#btn-post{
+.btn-styles{
     padding: 1% 2%;
+    margin: 10px 0;
     border: 1px solid rgb(50, 47, 43);
     border-radius: 10px;
     background-color: rgb(222, 160, 89);
 }
-#btn-post:hover{
+.btn-styles:hover{
     background-color: rgb(225, 203, 177);
     cursor: pointer;
 }
