@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(222, 160, 89);
+    color: rgb(50, 47, 43);
+}
+
+header{
+    margin: 5% 0;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    width: 50%;
+    margin: 2% auto;
+    padding: 2%;
+    border: 1px solid rgb(50, 47, 43);
+    border-radius: 10px;
+}
+
+.functionality{
+    text-align: center;
+}
+#new-comment{
+    border: 1px solid rgb(50, 47, 43);
+    border-radius: 10px;
+}
+#btn-post{
+    padding: 1% 2%;
+    border: 1px solid rgb(50, 47, 43);
+    border-radius: 10px;
+    background-color: rgb(222, 160, 89);
+}
+#btn-post:hover{
+    background-color: rgb(225, 203, 177);
+    cursor: pointer;
+}
+
+
+/* @media screen and (max-width: 480px) {
+    #new-comment{
+        width: fit-content;
+    }
+  } */
